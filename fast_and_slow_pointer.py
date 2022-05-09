@@ -1,4 +1,4 @@
-# Detect cycle in Linked List: Turtoise and Hare Algorithm
+# Detect cycle in Linked List: Tortoise and Hare Algorithm
 def fast_and_slow_pointer(head):
     # Null Case
     if not head:
