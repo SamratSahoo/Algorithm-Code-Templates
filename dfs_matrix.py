@@ -1,4 +1,4 @@
-def matrix_dfs(matrix):
+def dfs_matrix(matrix):
     
     def dfs(i, j):
         if not 0 <= i < len(matrix) or not 0 <= j < len(matrix[0]) or matrix[i][j] != "1":

@@ -1,7 +1,7 @@
 from collections import deque
 
 # Traverse Tree Level by Level
-def bfs(root):
+def bfs_tree(root):
     # Queue required for BFS
     queue = deque()
 

@@ -1,4 +1,4 @@
-def validPath(self, n, edges, start, destination):
+def bfs_graph(n, edges, start, destination):
     neighbors = defaultdict(list)
     for n1, n2 in edges:
         neighbors[n1].append(n2)
